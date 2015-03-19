@@ -1,0 +1,35 @@
+aaa          aaa
+(a|b)        aaaab
+a*           dsdflkjl
+a*b*         aaabbbbb
+a*b*         hkjdsbaaa
+(a|b)*       ababbbba
+(a|b)*       aabababdaa
+(ab)*        abababab
+(ab)*        abababa
+a*ab(ab)*    aaaab
+a*b*c*       aaaccccc
+aa*b*c*      abababa
+a*b*(c|d)*   aaabcddcdcd
+a*b*(c|d)*e  aaabcddcdcd
+(abcd)*      abcdabcd
+
+
+
+
+
+aaa          aaa
+(a|b)        aaaab
+aa*          dsdflkjl
+ada*b*       aaabbbbb
+a*cb*        hkjdsbaaa
+(aa|b)*      ababbbba
+(a|b)*       aabababdaa
+(ab|cd)*cd   abababab
+(ab)*c       abababa
+a*ab(ab)*c   aaaabc
+a*b*c*d      aaaccccc
+aa*b*c*d     abababad
+a*b*(c|d)    aaabcddcdcd
+a*b*(c|d)*e  aaabcddcdcd
+(abcd)*cd    abcdabcd

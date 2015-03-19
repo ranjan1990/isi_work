@@ -1,0 +1,7 @@
+To install the dynamic library file:
+	#make 
+	#make install 
+	
+To test the  package:
+	$make test
+
